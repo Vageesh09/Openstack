@@ -1,0 +1,15 @@
+DEBUG:root:This message should go to the log file
+DEBUG:root:vm created
+ERROR:root:vm created
+DEBUG:root:vm created
+ERROR:root:vm created
+DEBUG:root:vm created
+ERROR:root:vm created
+DEBUG:root:vm created
+ERROR:root:vm created
+DEBUG:root:2015-09-20 09:16:45.515253 vm created
+ERROR:root:2015-09-20 09:16:45.515451 vm created
+DEBUG:root:2015-09-20 09:16:49.576889 vm created
+ERROR:root:2015-09-20 09:16:49.577080 vm created
+DEBUG:root:2015-09-20 09:18:01.588252 vm created
+ERROR:root:2015-09-20 09:18:01.588438 vm created
