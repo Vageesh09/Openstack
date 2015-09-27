@@ -1,9 +1,9 @@
 import ConfigParser
 
-def readConfigFile(sect):
+def readConfigFile(filename,sect):
 	dict1 = {}
 	config=ConfigParser.ConfigParser()
-	config.read("key.conf")
+	config.read(filename)
 	options = config.options(sect)
 	for option in options:
 		try: 

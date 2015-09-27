@@ -13,6 +13,7 @@ def createVm(argv):
 	authDict = {}
 	numberOfVms = 1
 	vmCreated={}
+	KEY_FILE = "key.conf"
 	#vmCreated['createVmStat'] = 'error'
 	# get the options from cammand line
 	try:
@@ -56,7 +57,7 @@ def createVm(argv):
 				LogDump.dumpLog("createVm : accepted arguements is iteger but ecieved string "+opt + " "+ arg)
 				return vmCreated	
 	
-	authDict = configReader.readConfigFile("KeystoneAuth")
+	authDict = configReader.readConfigFile(KEY_FILE,"KeystoneAuth")
 	#get the nova object
 	nova=client.Client(authDict['versionnumber'],authDict['username'],authDict['password'],authDict['tennantname'],authDict['authurl'])
 	# create a vm after getting the inputs
@@ -79,6 +80,8 @@ def createVm(argv):
 			LogDump.dumpLog("createvm : "+vmname+str(i)+ " Buid Failed ..")
 
 	# return the dictionary {('vmname':'ID')}
+	for instanceName, instanceId in self.vmCreated :
+			sever = nova.servers.find(id=instanceId);
 	return vmCreated
 
 if __name__ == "__main__":
