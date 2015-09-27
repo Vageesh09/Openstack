@@ -1,5 +1,5 @@
 #!/usr/bin/env python
- 
+#http://www.jejik.com/articles/2007/02/a_simple_unix_linux_daemon_in_python/
 import sys, os, time, atexit
 from signal import SIGTERM
  
@@ -80,11 +80,13 @@ class Daemon:
                         message = "pidfile %s already exist. Daemon already running?\n"
                         sys.stderr.write(message % self.pidfile)
                         sys.exit(1)
-                        
+                
+                #bellow method should be written by the inheriting class        
               	self.InitializeDeamon()
+              	
                
                 # Start the daemon
-                self.daemonize()
+               # self.daemonize() #comment demonize for debugging...will help print exceptions in terminal
                 self.run()
  
         def stop(self):

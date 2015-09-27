@@ -20,3 +20,73 @@ INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
 DEBUG:urllib3.connectionpool:Setting read timeout to None
 DEBUG:root:2015-09-27 17:34:50.283132 createvmd : some error while creating... deamon terminating itself
 DEBUG:root:2015-09-27 17:34:50.528829 createvmd : dictionary - {}
+DEBUG:root:2015-09-27 20:20:47.098537 createvm :  called initialization
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+DEBUG:root:2015-09-27 20:21:24.490842 createvmd : end of initialization 
+DEBUG:root:2015-09-27 20:21:24.509437 createvmd : is now demonized 
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/5145109f-17bb-45cb-b0d1-5739fe2016f5 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-27 20:21:35.499486 createvmd : dsa0ID : 5145109f-17bb-45cb-b0d1-5739fe2016f5 Build Success !!
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/c97468a8-f7c1-4717-8045-8482e0643321 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-27 20:21:36.429953 createvmd : dsa1ID : c97468a8-f7c1-4717-8045-8482e0643321 Build Success !!
+DEBUG:root:2015-09-27 20:21:36.430062 createvmd : dictionary - {'dsa0': u'5145109f-17bb-45cb-b0d1-5739fe2016f5', 'dsa1': u'c97468a8-f7c1-4717-8045-8482e0643321'}
+DEBUG:root:2015-09-27 20:21:36.430120 createvmd : waiting for end time 
+DEBUG:root:2015-09-27 20:21:36.430174 createvmd : started deleting vms
+DEBUG:root:2015-09-27 20:38:58.592802 createvm :  called initialization
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+DEBUG:root:2015-09-27 20:39:28.947842 createvmd : end of initialization 
+DEBUG:root:2015-09-27 20:39:28.962613 createvmd : is now demonized 
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/88f11f06-b5ee-4fa7-b079-8c15047b5b6b HTTP/1.1" 200 1457
+DEBUG:root:2015-09-27 20:39:33.410715 createvmd : dsa0 ID : 88f11f06-b5ee-4fa7-b079-8c15047b5b6b Build Success !!
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/dfcebf2f-e823-43ef-8120-8b736a2656e2 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-27 20:39:33.948788 createvmd : dsa1 ID : dfcebf2f-e823-43ef-8120-8b736a2656e2 Build Success !!
+DEBUG:root:2015-09-27 20:39:33.948901 createvmd : dictionary - {'dsa0': u'88f11f06-b5ee-4fa7-b079-8c15047b5b6b', 'dsa1': u'dfcebf2f-e823-43ef-8120-8b736a2656e2'}
+DEBUG:root:2015-09-27 20:39:33.948962 createvmd : waiting for end time 
+DEBUG:root:2015-09-27 20:39:33.949018 createvmd : started deleting vms

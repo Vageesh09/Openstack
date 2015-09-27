@@ -67,21 +67,31 @@ def createVm(argv):
 	flavor=nova.flavors.find(name=flavor)
 	#iterate --count/-c times to create --count/-c number of VMs ;each VM's name suffixed with i
 	for i in range(0,numberOfVms):
-		vm=nova.servers.create(name=vmname+str(i),image=image,flavor=flavor)
-		print "creating VM named : "+vmname+str(i)
-		if vm.status == "BUILD" :
-			#print vm.networks['private'][0]
-			print "ID : "+ vm.id
-			print "Build Success !!"
+		#if not nova.servers.find(name = vmname+str(i)):
+		try:
+			vm=nova.servers.find(name = vmname+str(i))
 			vmCreated[vmname+str(i)] = vm.id
-			LogDump.dumpLog("createvm : "+vmname+str(i)+"ID : "+ vm.id+ "Build Success !!")
-		else:
-			print vmname+str(i) + " : Buid Failed .. "
-			LogDump.dumpLog("createvm : "+vmname+str(i)+ " Buid Failed ..")
-
+			LogDump.dumpLog("createvm : "+vmname+str(i)+" ID : "+ vm.id+ " already present !!")
+			print "createvm : "+vmname+str(i)+" ID : "+ vm.id+ " already present !!"
+		except :
+			# if exception is created then vm with name is not present..so create a new one
+			vm=nova.servers.create(name=vmname+str(i),image=image,flavor=flavor)
+			print "creating VM named : "+vmname+str(i)
+			if vm.status == "BUILD" :
+				#print vm.networks['private'][0]
+				print "ID : "+ vm.id
+				print "Build Success !!"
+				vmCreated[vmname+str(i)] = vm.id
+				LogDump.dumpLog("createvm : "+vmname+str(i)+"ID : "+ vm.id+ "Build Success !!")
+			else:
+				print vmname+str(i) + " : Buid Failed .. "
+				LogDump.dumpLog("createvm : "+vmname+str(i)+ " Buid Failed ..")
+			
+		#else:
+		#	print "vm already exists"
+			
 	# return the dictionary {('vmname':'ID')}
-	for instanceName, instanceId in self.vmCreated :
-			sever = nova.servers.find(id=instanceId);
+	print vmCreated
 	return vmCreated
 
 if __name__ == "__main__":

@@ -115,6 +115,8 @@ class CreateVmd(Daemon):
 		endTime = self.todayAt(self.endHour,self.endMinute)
 
 		#wait for the time given
+		#while (1):
+		#while self.maskNow() != startTime :
 		while self.maskNow() < startTime :
 			time.sleep(10)
 
@@ -139,13 +141,15 @@ class CreateVmd(Daemon):
 		self.dumplogd("createvmd : waiting for end time ")
 
 		# wait till end point
+		#while self.maskNow() != endTime:
         	while self.maskNow() <= endTime:
 			time.sleep(10)
 
 		# now end time is crossed; time to delete created vms
 		self.dumplogd("createvmd : started deleting vms")
 		for instanceName in self.vmCreated.keys():
-			server = self.nova.servers.find(id=self.vmCreated[instanceName])
+			#server = self.nova.servers.find(id=self.vmCreated[instanceName])
+			server = self.nova.servers.find(name=instanceName)
 			server.delete();
 			self.dumplogd("createvmd : deleted - "+ instanceName + " status : "+server.status)
 

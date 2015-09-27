@@ -6,7 +6,7 @@ def dumpLog(logString):
 	logDict = configReader.readConfigFile("key.conf","logdetails")
 	LOG_FILENAME = logDict['createvmlog']
 	logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG)
-	print datetime.datetime.now()
+	#print datetime.datetime.now()
 	logging.debug( str(datetime.datetime.now()) + " " + logString)
 	return 0;
 

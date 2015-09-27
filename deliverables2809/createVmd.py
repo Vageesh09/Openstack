@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#http://www.jejik.com/articles/2007/02/a_simple_unix_linux_daemon_in_python/
+
 import time, sys
 import datetime
 import logging
@@ -9,9 +9,8 @@ from novaclient import client
 from deamon import Daemon
  
 class CreateVmd(Daemon):
-	#method to write to log file
-	
 
+	#method to write to log file
 	def dumplogd(self, logString):
 		logging.basicConfig( filename = self.LOG_FILENAME, level = logging.DEBUG )
 		logging.debug( str( datetime.datetime.now()) + " " + logString )
@@ -27,16 +26,25 @@ class CreateVmd(Daemon):
 		return now.replace(second = 0, microsecond = 0)
 
 	def InitializeDeamon(self):
-		self.vmCreated={}
+
+		self.vmCreated={}	#holds the key/value pair of vm created
+		#bellow cade will not be demonized
+
 		#take the filename to create log
 		logDict = configReader.readConfigFile("key.conf", "logdetails")
 		self.LOG_FILENAME = logDict['deamonlog']
-		#test the write
-		self.dumplogd("createvm :  called initialization")
 
+		#dump status log
+		self.dumplogd("createvm :  called initialization")
+		
+		#get file from key file
 		deamDict = configReader.readConfigFile("key.conf", "infod")
+		
+		#retrieve the initialization details
 		self.paramDict = configReader.readConfigFile(deamDict["file"],deamDict["package"])
-		print self.paramDict
+		
+		#print self.paramDict # this will print in terminal
+		#check each pareameter and validate
 		try :
 	       		authDict = configReader.readConfigFile("key.conf", "KeystoneAuth")
 			#get the nova object
@@ -54,7 +62,7 @@ class CreateVmd(Daemon):
 			#print paramDict
 			sys.exit(1)
 
-		try : # boundry checking and type checking
+		try : # boundry checking and type checking for hour minute and instance count
 			self.startHour = int(self.paramDict['start-hour']);
 			if self.startHour > 23 | self.startHour < 0 :
 				print "hours should less than 23. Terminating Deamon..."
@@ -91,47 +99,59 @@ class CreateVmd(Daemon):
 		except : 
 			print "vmname not found. Terminating Deamon..."
 			sys.exit(1)
-
+		
 		self.dumplogd("createvmd : end of initialization ")
+		print "Deamon Initialized and running."
+		print "Check "+self.LOG_FILENAME+" for loges dumped by deamon "
+		print "to stop use: %s stop|restart" % sys.argv[0]
 		pass
 
         def run(self):
+        	#bellow code is run as deamon. use self to adress the class properties
        		self.dumplogd("createvmd : is now demonized ")
+		
+		#time to start and delete VMs
 		startTime = self.todayAt(self.startHour,self.startMinute)
 		endTime = self.todayAt(self.endHour,self.endMinute)
 
 		#wait for the time given
+		#while (1):
+		#while self.maskNow() != startTime :
 		while self.maskNow() < startTime :
 			time.sleep(10)
 
 		#time elapsed start n VM's now
 		try:
 			for i in range(0,self.intsanceCount):
+
 				vm=self.nova.servers.create(name=self.vmname+str(i),image=self.image,flavor=self.flavor)
+
 				if vm.status == "BUILD" :
 					#print vm.networks['private'][0]
 					self.vmCreated[self.vmname+str(i)] = vm.id
-					self.dumplogd("createvmd : "+self.vmname+str(i)+"ID : "+ vm.id+ " Build Success !!")
+					self.dumplogd("createvmd : "+self.vmname+str(i)+" ID : "+ vm.id+ " Build Success !!")
 				else:	
 					self.vmCreated[self.vmname+str(i)] = vm.id
 					self.dumplogd("createvmd : "+self.vmname+str(i)+ " Buid Failed ..")
 		except : 
 			self.dumplogd("createvmd : some error while creating... deamon terminating itself")
 
-		self.dumplogd("createvmd : dictionary - "+ str(self.vmCreated));
-			#sys.exit(1);
-		
+		#dump status logs
+		self.dumplogd("createvmd : dictionary - "+ str(self.vmCreated))
+		self.dumplogd("createvmd : waiting for end time ")
+
 		# wait till end point
-                while self.maskNow() >= endTime:
+		#while self.maskNow() != endTime:
+        	while self.maskNow() <= endTime:
 			time.sleep(10)
-			
-			
-		for instanceName, instanceId in self.vmCreated :
-			sever = nova.servers.find(id=instanceId);
-		
-		# now end time is crossed tome to delete created vms
-		
-		
+
+		# now end time is crossed; time to delete created vms
+		self.dumplogd("createvmd : started deleting vms")
+		for instanceName in self.vmCreated.keys():
+			#server = self.nova.servers.find(id=self.vmCreated[instanceName])
+			server = self.nova.servers.find(name=instanceName)
+			server.delete();
+			self.dumplogd("createvmd : deleted - "+ instanceName + " status : "+server.status)
 
 if __name__ == "__main__":
         daemon = CreateVmd('/tmp/daemon-createvm.pid')
