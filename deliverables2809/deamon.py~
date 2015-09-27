@@ -86,7 +86,7 @@ class Daemon:
               	
                
                 # Start the daemon
-               # self.daemonize() #comment demonize for debugging...will help print exceptions in terminal
+                self.daemonize() #comment demonize for debugging...will help print exceptions in terminal
                 self.run()
  
         def stop(self):

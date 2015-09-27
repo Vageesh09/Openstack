@@ -441,3 +441,421 @@ INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
 DEBUG:urllib3.connectionpool:Setting read timeout to None
 DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/e5b1d380-9f86-4228-9d82-77083fce0b0c HTTP/1.1" 204 0
 DEBUG:root:2015-09-28 00:32:36.347111 createvmd : deleted - dsa1 status : ERROR
+DEBUG:root:2015-09-28 02:31:28.384793 createvm :  called initialization
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+DEBUG:root:2015-09-28 02:35:09.117125 createvmd : end of initialization 
+DEBUG:root:2015-09-28 02:35:09.117945 createvmd : is now demonized 
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/d84683ef-25b3-420f-af12-58ffc2a1c558 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 02:35:16.832016 createvmd : dsa0 ID : d84683ef-25b3-420f-af12-58ffc2a1c558 Build Success !!
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/dc4a6490-efe5-4c8d-a2f6-6aab266200a8 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 02:35:23.964826 createvmd : dsa1 ID : dc4a6490-efe5-4c8d-a2f6-6aab266200a8 Build Success !!
+DEBUG:root:2015-09-28 02:40:35.163882 createvm :  called initialization
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+DEBUG:root:2015-09-28 02:41:19.598223 createvmd : end of initialization 
+DEBUG:root:2015-09-28 02:41:19.599323 createvmd : is now demonized 
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/d7a8432e-98ce-4d55-b8f8-55e98a086bb8 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 02:41:22.275746 createvmd : dsa0 ID : d7a8432e-98ce-4d55-b8f8-55e98a086bb8 Build Success !!
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/0c2079d4-67d1-49cd-8c14-abb18b44e322 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 02:41:22.851928 createvmd : dsa1 ID : 0c2079d4-67d1-49cd-8c14-abb18b44e322 Build Success !!
+DEBUG:root:2015-09-28 02:41:22.852045 createvmd : dictionary - {'dsa0': u'd7a8432e-98ce-4d55-b8f8-55e98a086bb8', 'dsa1': u'0c2079d4-67d1-49cd-8c14-abb18b44e322'}
+DEBUG:root:2015-09-28 02:41:22.852101 createvmd : waiting for end time 
+DEBUG:root:2015-09-28 02:41:22.852156 createvmd : started deleting vms
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 1032
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/d7a8432e-98ce-4d55-b8f8-55e98a086bb8 HTTP/1.1" 200 2821
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/d7a8432e-98ce-4d55-b8f8-55e98a086bb8 HTTP/1.1" 204 0
+DEBUG:root:2015-09-28 02:41:23.604983 createvmd : deleted - dsa0 status : ERROR
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/0c2079d4-67d1-49cd-8c14-abb18b44e322 HTTP/1.1" 200 1457
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/0c2079d4-67d1-49cd-8c14-abb18b44e322 HTTP/1.1" 204 0
+DEBUG:root:2015-09-28 02:41:24.014054 createvmd : deleted - dsa1 status : BUILD
+DEBUG:root:2015-09-28 02:44:44.530339 createvm :  called initialization
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+DEBUG:root:2015-09-28 02:46:07.093270 createvmd : end of initialization 
+DEBUG:root:2015-09-28 02:46:07.097961 createvmd : is now demonized 
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/094f5679-8fd4-46ec-8fc8-b28d90f1d38b HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 02:46:28.190450 createvmd : dsa0 ID : 094f5679-8fd4-46ec-8fc8-b28d90f1d38b Build Success !!
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/ff2bea1a-8ed3-46d3-ac95-a41138b56da0 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 02:46:29.343144 createvmd : dsa1 ID : ff2bea1a-8ed3-46d3-ac95-a41138b56da0 Build Success !!
+DEBUG:root:2015-09-28 02:46:29.343293 createvmd : dictionary - {'dsa0': u'094f5679-8fd4-46ec-8fc8-b28d90f1d38b', 'dsa1': u'ff2bea1a-8ed3-46d3-ac95-a41138b56da0'}
+DEBUG:root:2015-09-28 02:46:29.343354 createvmd : waiting for end time 
+DEBUG:root:2015-09-28 02:46:29.343417 createvmd : started deleting vms
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 1032
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/094f5679-8fd4-46ec-8fc8-b28d90f1d38b HTTP/1.1" 200 2821
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/094f5679-8fd4-46ec-8fc8-b28d90f1d38b HTTP/1.1" 204 0
+DEBUG:root:2015-09-28 02:47:22.109872 createvmd : deleted - dsa0 status : ERROR
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/ff2bea1a-8ed3-46d3-ac95-a41138b56da0 HTTP/1.1" 200 2821
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/ff2bea1a-8ed3-46d3-ac95-a41138b56da0 HTTP/1.1" 204 0
+DEBUG:root:2015-09-28 02:47:22.811436 createvmd : deleted - dsa1 status : ERROR
+DEBUG:root:2015-09-28 02:52:56.452089 createvm :  called initialization
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+DEBUG:root:2015-09-28 02:53:35.967658 createvmd : end of initialization 
+DEBUG:root:2015-09-28 02:53:35.971230 createvmd : is now demonized 
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/e92c114b-0287-4e15-a3c7-b26cd24390a6 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 02:53:42.455346 createvmd : dsa0 ID : e92c114b-0287-4e15-a3c7-b26cd24390a6 Build Success !!
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/b1d94283-08c0-48d5-a017-3b47836361fa HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 02:53:43.003637 createvmd : dsa1 ID : b1d94283-08c0-48d5-a017-3b47836361fa Build Success !!
+DEBUG:root:2015-09-28 02:53:43.003783 createvmd : dictionary - {'dsa0': u'e92c114b-0287-4e15-a3c7-b26cd24390a6', 'dsa1': u'b1d94283-08c0-48d5-a017-3b47836361fa'}
+DEBUG:root:2015-09-28 02:53:43.003843 createvmd : waiting for end time 
+DEBUG:root:2015-09-28 02:53:43.003904 createvmd : started deleting vms
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 1032
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/e92c114b-0287-4e15-a3c7-b26cd24390a6 HTTP/1.1" 200 1457
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/e92c114b-0287-4e15-a3c7-b26cd24390a6 HTTP/1.1" 204 0
+DEBUG:root:2015-09-28 02:53:45.514004 createvmd : deleted - dsa0 status : BUILD
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/b1d94283-08c0-48d5-a017-3b47836361fa HTTP/1.1" 200 1457
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/b1d94283-08c0-48d5-a017-3b47836361fa HTTP/1.1" 204 0
+DEBUG:root:2015-09-28 02:53:47.334584 createvmd : deleted - dsa1 status : BUILD
+DEBUG:root:2015-09-28 02:55:51.704213 createvm :  called initialization
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+DEBUG:root:2015-09-28 02:57:21.470551 createvm :  called initialization
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+DEBUG:root:2015-09-28 02:58:01.378943 createvm :  called initialization
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+DEBUG:root:2015-09-28 02:58:02.573454 createvmd : end of initialization 
+DEBUG:root:2015-09-28 02:58:02.573598 createvmd : is now demonized 
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/ae559a45-70f0-4f84-b3c6-686bc1206769 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 02:58:05.050657 createvmd : dsa0 ID : ae559a45-70f0-4f84-b3c6-686bc1206769 Build Success !!
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/1fe93045-42d4-49fe-a61f-acfe4316c686 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 02:58:05.409661 createvmd : dsa1 ID : 1fe93045-42d4-49fe-a61f-acfe4316c686 Build Success !!
+DEBUG:root:2015-09-28 02:59:49.675810 createvm :  called initialization
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+DEBUG:root:2015-09-28 02:59:54.173665 createvmd : end of initialization 
+DEBUG:root:2015-09-28 02:59:54.174353 createvmd : is now demonized 
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/c4b36e31-2293-4669-9f2c-e201cc97de28 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 02:59:54.702750 createvmd : dsa0 ID : c4b36e31-2293-4669-9f2c-e201cc97de28 Build Success !!
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:root:2015-09-28 03:00:57.214443 createvmd : some error while creating... deamon terminating itself
+DEBUG:root:2015-09-28 03:01:03.356175 createvmd : dictionary - {'dsa0': u'c4b36e31-2293-4669-9f2c-e201cc97de28'}
+DEBUG:root:2015-09-28 03:01:03.356345 createvmd : waiting for end time 
+DEBUG:root:2015-09-28 03:01:03.356490 createvmd : started deleting vms
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 1712
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/c4b36e31-2293-4669-9f2c-e201cc97de28 HTTP/1.1" 200 2821
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/ae559a45-70f0-4f84-b3c6-686bc1206769 HTTP/1.1" 200 2821
+DEBUG:root:2015-09-28 03:09:23.914835 createvm :  called initialization
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 500 143
+DEBUG:root:2015-09-28 03:18:25.389876 createvm :  called initialization
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+DEBUG:root:2015-09-28 03:18:58.303708 createvmd : end of initialization 
+DEBUG:root:2015-09-28 03:18:58.304732 createvmd : is now demonized 
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/3088fa1d-6be8-486b-801b-7cdf71e3b751 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 03:18:59.017124 createvmd : dsa0 ID : 3088fa1d-6be8-486b-801b-7cdf71e3b751 Build Success !!
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/bd59798f-51d8-44f5-af7f-a76a128ec293 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 03:18:59.190034 createvmd : dsa1 ID : bd59798f-51d8-44f5-af7f-a76a128ec293 Build Success !!
+DEBUG:root:2015-09-28 03:19:04.763304 createvmd : dictionary - {'dsa0': u'3088fa1d-6be8-486b-801b-7cdf71e3b751', 'dsa1': u'bd59798f-51d8-44f5-af7f-a76a128ec293'}
+DEBUG:root:2015-09-28 03:19:04.763482 createvmd : waiting for end time 
+DEBUG:root:2015-09-28 03:19:04.763602 createvmd : started deleting vms
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 1032
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/3088fa1d-6be8-486b-801b-7cdf71e3b751 HTTP/1.1" 200 1457
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/3088fa1d-6be8-486b-801b-7cdf71e3b751 HTTP/1.1" 204 0
+DEBUG:root:2015-09-28 03:19:05.051994 createvmd : deleted - dsa0 status : BUILD
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/bd59798f-51d8-44f5-af7f-a76a128ec293 HTTP/1.1" 200 1457
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/bd59798f-51d8-44f5-af7f-a76a128ec293 HTTP/1.1" 204 0
+DEBUG:root:2015-09-28 03:19:05.357114 createvmd : deleted - dsa1 status : BUILD
+DEBUG:root:2015-09-28 03:21:11.760908 createvm :  called initialization
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+DEBUG:root:2015-09-28 03:21:12.194757 createvmd : end of initialization 
+DEBUG:root:2015-09-28 03:21:12.230652 createvmd : is now demonized 
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/b6398a38-33dd-4c1d-b754-b1d800b94632 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 03:21:12.514599 createvmd : dsa0 ID : b6398a38-33dd-4c1d-b754-b1d800b94632 Build Success !!
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/492ea017-e7f2-445b-8325-f173dc19b1ba HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 03:21:12.685475 createvmd : dsa1 ID : 492ea017-e7f2-445b-8325-f173dc19b1ba Build Success !!
+DEBUG:root:2015-09-28 03:21:18.228292 createvmd : dictionary - {'dsa0': u'b6398a38-33dd-4c1d-b754-b1d800b94632', 'dsa1': u'492ea017-e7f2-445b-8325-f173dc19b1ba'}
+DEBUG:root:2015-09-28 03:21:18.228446 createvmd : waiting for end time 
+DEBUG:root:2015-09-28 03:21:18.228525 createvmd : started deleting vms
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 1032
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/b6398a38-33dd-4c1d-b754-b1d800b94632 HTTP/1.1" 200 1457
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/b6398a38-33dd-4c1d-b754-b1d800b94632 HTTP/1.1" 204 0
+DEBUG:root:2015-09-28 03:21:18.467635 createvmd : deleted - dsa0 status : BUILD
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/492ea017-e7f2-445b-8325-f173dc19b1ba HTTP/1.1" 200 1457
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/492ea017-e7f2-445b-8325-f173dc19b1ba HTTP/1.1" 204 0
+DEBUG:root:2015-09-28 03:21:18.681642 createvmd : deleted - dsa1 status : BUILD

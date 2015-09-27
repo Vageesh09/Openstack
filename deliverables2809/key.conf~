@@ -4,6 +4,8 @@ VersionNumber = 2
 UserName = admin
 TennantName = admin
 Password=ADMIN_PASS
+mailid = sohanspoojary99@gmail.com
+mailpas = yourmailpass
 
 
 

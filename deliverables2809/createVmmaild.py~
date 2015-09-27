@@ -3,10 +3,16 @@
 import time, sys
 import datetime
 import logging
-import configReader
+
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
 from novaclient import client
 #import novaclient.exceptions
 from deamon import Daemon
+
+import configReader
  
 class CreateVmd(Daemon):
 	
@@ -24,11 +30,47 @@ class CreateVmd(Daemon):
 	def maskNow(self):
 		now = datetime.datetime.now()
 		return now.replace(second = 0, microsecond = 0)
-	def sendmail(self):
+	
+	#sendmail module to send the notification of events
+	def sendmail(self,content):
+		#check if flag , before sending email
+		if self.mailFlag :
+			msg = MIMEMultipart('alternative')
+			me = self.mailFrom
+			you = self.paramDict['sendto']
+			msg['Subject'] = "Createvm Deamon Notification"
+			msg['From'] = me
+			msg['To'] = you
+			text = "Hi!"
+			html = """\
+			<html>
+			  <head></head>
+			  <body>
+			    <p>Hi!<br>
+			       """+content+"""
+			    </p>
+			  </body>
+			</html>
+			"""
+			part1 = MIMEText(text, 'plain')
+			part2 = MIMEText(html, 'html')
+			msg.attach(part1)
+			msg.attach(part2)
+
+			mail = smtplib.SMTP('smtp.gmail.com', 587)	#hardcoded...
+			mail.ehlo()
+			mail.starttls()
+			mail.login(me, self.mailPass)
+			mail.sendmail(self.mailFrom, you, msg.as_string())
+			mail.quit()
+
 		pass
 	def InitializeDeamon(self):
 
 		self.vmCreated={}	#holds the key/value pair of vm created
+		self.mailFlag=False
+		self.mailFrom = ""
+		self.mailPass = ""
 		#bellow cade will not be demonized
 
 		#take the filename to create log
@@ -92,6 +134,22 @@ class CreateVmd(Daemon):
 		except : 
 			print "please enter hour, minute, intsace count in integer in integers. Terminating Deamon..."
 			sys.exit(1)
+			
+		try : 
+			if len(self.paramDict['sendto']) > 4 :
+				self.mailFlag = True
+				self.mailFrom = authDict['mailid']
+				self.mailPass = authDict['mailpas']
+		except :
+		 	self.mailFlag=False
+		 	print "error here "
+		 	print self.paramDict['sendto']
+		 	print len(self.paramDict['sendto'])
+		 	print authDict['mailid']
+		 	print authDict['mailpas']
+		 	
+			
+			
 		try : 	#validation needed
 			self.vmname = self.paramDict['vmname'];
 			if len(self.vmname) == 0:
@@ -138,6 +196,7 @@ class CreateVmd(Daemon):
 			self.dumplogd("createvmd : some error while creating... deamon terminating itself")
 
 		#dump status logs
+		self.sendmail(self.paramDict['intsancecount']+" Virtual machine has been created <br/>status : "+ str(self.vmCreated))
 		self.dumplogd("createvmd : dictionary - "+ str(self.vmCreated))
 		self.dumplogd("createvmd : waiting for end time ")
 
@@ -153,6 +212,7 @@ class CreateVmd(Daemon):
 			server = self.nova.servers.find(name=instanceName)
 			server.delete();
 			self.dumplogd("createvmd : deleted - "+ instanceName + " status : "+server.status)
+		self.sendmail(self.paramDict['intsancecount']+" Virtual machine has been deleted  <br/> series name : "+self.vmname)
 
 if __name__ == "__main__":
         daemon = CreateVmd('/tmp/daemon-createvm.pid')

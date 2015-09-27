@@ -9,7 +9,7 @@ from novaclient import client
 from deamon import Daemon
  
 class CreateVmd(Daemon):
-
+	
 	#method to write to log file
 	def dumplogd(self, logString):
 		logging.basicConfig( filename = self.LOG_FILENAME, level = logging.DEBUG )
@@ -24,7 +24,8 @@ class CreateVmd(Daemon):
 	def maskNow(self):
 		now = datetime.datetime.now()
 		return now.replace(second = 0, microsecond = 0)
-
+	def sendmail(self):
+		pass
 	def InitializeDeamon(self):
 
 		self.vmCreated={}	#holds the key/value pair of vm created
