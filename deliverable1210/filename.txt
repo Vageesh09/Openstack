@@ -1,0 +1,1 @@
+vmx2,ACTIVE,http://192.168.43.184:6080/vnc_auto.html?token=19a0b245-d079-47d7-a918-40fda921f4f8

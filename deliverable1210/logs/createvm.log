@@ -1,0 +1,1049 @@
+DEBUG:root:2015-09-20 09:52:44.700216 create vm called
+DEBUG:root:2015-09-20 09:53:10.730047 create vm called
+DEBUG:root:2015-09-20 09:57:19.344116 create vm called...
+DEBUG:root:2015-09-20 09:57:19.344825 createVm : missed syntax  ...
+DEBUG:root:2015-09-20 10:02:06.167304 create vm called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/7499cf2d-9007-44c3-8a70-5a1cfa478622 HTTP/1.1" 200 1456
+DEBUG:root:2015-09-20 10:06:44.683738 create vm called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/3473fb4c-0411-4505-8396-ae3ef5e8396e HTTP/1.1" 200 1456
+DEBUG:root:2015-09-20 10:06:46.468061 createvm : mn0ID : 3473fb4c-0411-4505-8396-ae3ef5e8396eBuild Success !!
+DEBUG:root:2015-09-26 23:08:36.406143 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/cb0c197f-e2c2-4464-9961-8316c1730bf0 HTTP/1.1" 200 1454
+DEBUG:root:2015-09-26 23:08:46.027497 createvm : 0ID : cb0c197f-e2c2-4464-9961-8316c1730bf0Build Success !!
+DEBUG:root:2015-09-27 19:05:54.839068 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/8c5200af-57e0-4369-aa28-5d0744f3008e HTTP/1.1" 200 1457
+DEBUG:root:2015-09-27 19:09:41.365167 createvm : vmx0ID : 8c5200af-57e0-4369-aa28-5d0744f3008eBuild Success !!
+DEBUG:root:2015-09-27 22:10:53.714627 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 352
+DEBUG:root:2015-09-27 22:13:01.477772 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 352
+DEBUG:root:2015-09-27 22:15:27.057494 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 352
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/a05c17b8-da54-4aca-87a3-faf59a276d87 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-27 22:15:29.337843 createvm : vmx0ID : a05c17b8-da54-4aca-87a3-faf59a276d87Build Success !!
+DEBUG:root:2015-09-27 22:16:09.692987 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/a05c17b8-da54-4aca-87a3-faf59a276d87 HTTP/1.1" 200 2821
+DEBUG:root:2015-09-27 22:17:28.478609 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/a05c17b8-da54-4aca-87a3-faf59a276d87 HTTP/1.1" 200 2821
+DEBUG:root:2015-09-27 22:17:29.070646 createvm : vmx0ID : a05c17b8-da54-4aca-87a3-faf59a276d87already present !!
+DEBUG:root:2015-09-27 22:17:40.253205 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/a05c17b8-da54-4aca-87a3-faf59a276d87 HTTP/1.1" 200 2821
+DEBUG:root:2015-09-27 22:17:40.644317 createvm : vmx0ID : a05c17b8-da54-4aca-87a3-faf59a276d87 already present !!
+DEBUG:root:2015-09-27 22:19:57.052397 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/a05c17b8-da54-4aca-87a3-faf59a276d87 HTTP/1.1" 200 2821
+DEBUG:root:2015-09-27 22:19:57.590458 createvm : vmx0ID : a05c17b8-da54-4aca-87a3-faf59a276d87 already present !!
+DEBUG:root:2015-09-27 22:20:23.519278 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/a05c17b8-da54-4aca-87a3-faf59a276d87 HTTP/1.1" 200 2821
+DEBUG:root:2015-09-27 22:20:24.016208 createvm : vmx0ID : a05c17b8-da54-4aca-87a3-faf59a276d87 already present !!
+DEBUG:root:2015-09-27 22:20:35.489804 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/a05c17b8-da54-4aca-87a3-faf59a276d87 HTTP/1.1" 200 2821
+DEBUG:root:2015-09-27 22:20:36.495913 createvm : vmx0ID : a05c17b8-da54-4aca-87a3-faf59a276d87 already present !!
+DEBUG:root:2015-09-27 22:41:09.436099 deletevm :  called...
+DEBUG:root:2015-09-27 22:41:09.439488 deletevm : missed syntax
+DEBUG:root:2015-09-27 22:41:53.593418 deletevm :  called...
+DEBUG:root:2015-09-27 22:41:53.594100 deletevm : missed syntax
+DEBUG:root:2015-09-27 22:42:09.212629 deletevm :  called...
+DEBUG:root:2015-09-27 22:42:09.213344 deletevm : asked help 
+DEBUG:root:2015-09-27 22:42:12.763950 deletevm :  called...
+DEBUG:root:2015-09-27 22:42:12.764706 deletevm : missed syntax
+DEBUG:root:2015-09-27 22:42:16.795874 deletevm :  called...
+DEBUG:root:2015-09-27 22:42:16.796798 deletevm : asked help 
+DEBUG:root:2015-09-27 23:27:14.224551 deletevm :  called...
+DEBUG:root:2015-09-27 23:27:25.659086 deletevm :  called...
+DEBUG:root:2015-09-27 23:29:46.773600 deletevm :  called...
+DEBUG:root:2015-09-27 23:29:53.644918 deletevm :  called...
+DEBUG:root:2015-09-27 23:43:44.761930 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/a05c17b8-da54-4aca-87a3-faf59a276d87 HTTP/1.1" 200 2821
+DEBUG:root:2015-09-27 23:44:19.597533 createvm : vmx0ID : a05c17b8-da54-4aca-87a3-faf59a276d87 already present !!
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/c8a098f8-5ae2-43d5-9d8d-07ec02d9629a HTTP/1.1" 200 1457
+DEBUG:root:2015-09-27 23:44:23.262472 createvm : vmx1ID : c8a098f8-5ae2-43d5-9d8d-07ec02d9629aBuild Success !!
+DEBUG:root:2015-09-27 23:44:43.065020 deletevm :  called...
+DEBUG:root:2015-09-27 23:46:44.720288 deletevm :  called...
+DEBUG:root:2015-09-27 23:47:01.685522 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 1032
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/a05c17b8-da54-4aca-87a3-faf59a276d87 HTTP/1.1" 200 2821
+DEBUG:root:2015-09-27 23:47:03.152734 createvm : vmx0 ID : a05c17b8-da54-4aca-87a3-faf59a276d87 already present !!
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 1032
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/c8a098f8-5ae2-43d5-9d8d-07ec02d9629a HTTP/1.1" 200 2821
+DEBUG:root:2015-09-27 23:47:04.273463 createvm : vmx1 ID : c8a098f8-5ae2-43d5-9d8d-07ec02d9629a already present !!
+DEBUG:root:2015-09-27 23:47:14.902051 deletevm :  called...
+DEBUG:root:2015-09-27 23:47:47.565100 deletevm :  called...
+DEBUG:root:2015-09-27 23:50:53.454597 deletevm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 1032
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/a05c17b8-da54-4aca-87a3-faf59a276d87 HTTP/1.1" 200 2821
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/a05c17b8-da54-4aca-87a3-faf59a276d87 HTTP/1.1" 204 0
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/c8a098f8-5ae2-43d5-9d8d-07ec02d9629a HTTP/1.1" 200 2821
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/c8a098f8-5ae2-43d5-9d8d-07ec02d9629a HTTP/1.1" 204 0
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 352
+DEBUG:root:2015-09-27 23:52:02.765889 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 352
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/671a3495-9958-40a6-a8ab-225a55469e33 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-27 23:53:03.980361 createvm : vmx0ID : 671a3495-9958-40a6-a8ab-225a55469e33Build Success !!
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/621d21fa-d7e5-4f41-96af-6edc396fb2cb HTTP/1.1" 200 1457
+DEBUG:root:2015-09-27 23:53:04.831224 createvm : vmx1ID : 621d21fa-d7e5-4f41-96af-6edc396fb2cbBuild Success !!
+DEBUG:root:2015-09-27 23:53:11.438302 deletevm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 1032
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/671a3495-9958-40a6-a8ab-225a55469e33 HTTP/1.1" 200 2821
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/671a3495-9958-40a6-a8ab-225a55469e33 HTTP/1.1" 204 0
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/621d21fa-d7e5-4f41-96af-6edc396fb2cb HTTP/1.1" 200 2821
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/621d21fa-d7e5-4f41-96af-6edc396fb2cb HTTP/1.1" 204 0
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 352
+DEBUG:root:2015-09-27 23:54:03.472051 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 352
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/58a08302-234b-45ee-9dc1-bb2997b4ad7e HTTP/1.1" 200 2821
+DEBUG:root:2015-09-27 23:54:07.192239 createvm : vmx0 Buid Failed ..
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/8a820923-d906-49cd-b9f4-904f590bc0eb HTTP/1.1" 200 2821
+DEBUG:root:2015-09-27 23:54:41.516684 createvm : vmx1 Buid Failed ..
+DEBUG:root:2015-09-27 23:55:15.684999 deletevm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 1032
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/58a08302-234b-45ee-9dc1-bb2997b4ad7e HTTP/1.1" 200 2821
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/58a08302-234b-45ee-9dc1-bb2997b4ad7e HTTP/1.1" 204 0
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/8a820923-d906-49cd-b9f4-904f590bc0eb HTTP/1.1" 200 2821
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/8a820923-d906-49cd-b9f4-904f590bc0eb HTTP/1.1" 204 0
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 352
+DEBUG:root:2015-09-27 23:55:30.973879 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 352
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/cb45bf41-d455-458b-a4ac-02acebcbf958 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-27 23:56:02.205331 createvm : vmx0ID : cb45bf41-d455-458b-a4ac-02acebcbf958Build Success !!
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/998e4f36-00dd-461d-83b0-acd3567b17ae HTTP/1.1" 200 1457
+DEBUG:root:2015-09-27 23:56:03.386043 createvm : vmx1ID : 998e4f36-00dd-461d-83b0-acd3567b17aeBuild Success !!
+DEBUG:root:2015-09-27 23:56:17.139653 deletevm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/detail HTTP/1.1" 200 11173
+DEBUG:root:2015-09-27 23:56:55.492205 deletevm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/detail HTTP/1.1" 200 11173
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/998e4f36-00dd-461d-83b0-acd3567b17ae HTTP/1.1" 204 0
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/cb45bf41-d455-458b-a4ac-02acebcbf958 HTTP/1.1" 204 0
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/cad2b6ec-a982-4e45-81bd-b1952421270a HTTP/1.1" 204 0
+DEBUG:root:2015-09-28 00:00:44.281528 createvm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images HTTP/1.1" 200 541
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/images/11565c96-b77b-49b4-aeeb-296867537e87 HTTP/1.1" 200 722
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors HTTP/1.1" 200 1209
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/flavors/1 HTTP/1.1" 200 418
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 352
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/446c97e0-2a58-4b2b-8fe4-c7432568a9a9 HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 00:01:07.525024 createvm : vmx0ID : 446c97e0-2a58-4b2b-8fe4-c7432568a9a9Build Success !!
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 202 436
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/4d604f09-0b3d-4499-989b-4c6b52b321ab HTTP/1.1" 200 1457
+DEBUG:root:2015-09-28 00:01:08.531418 createvm : vmx1ID : 4d604f09-0b3d-4499-989b-4c6b52b321abBuild Success !!
+DEBUG:root:2015-09-28 00:01:58.076354 deletevm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 1032
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/446c97e0-2a58-4b2b-8fe4-c7432568a9a9 HTTP/1.1" 200 2821
+DEBUG:root:2015-09-28 00:02:39.714922 deletevm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 1032
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/446c97e0-2a58-4b2b-8fe4-c7432568a9a9 HTTP/1.1" 200 2821
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/446c97e0-2a58-4b2b-8fe4-c7432568a9a9 HTTP/1.1" 204 0
+DEBUG:root:2015-09-28 00:03:17.286140 deletevm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+DEBUG:root:2015-09-28 00:03:21.260538 deletevm :  called...
+DEBUG:root:2015-09-28 00:03:21.261400 deletevm : option exception throwed
+DEBUG:root:2015-09-28 00:03:26.090248 deletevm :  called...
+DEBUG:root:2015-09-28 00:03:26.090972 deletevm : option exception throwed
+DEBUG:root:2015-09-28 00:03:31.922937 deletevm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+DEBUG:root:2015-09-28 00:03:37.330808 deletevm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+DEBUG:root:2015-09-28 00:05:06.393919 deletevm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+DEBUG:root:2015-09-28 00:05:15.226364 deletevm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers HTTP/1.1" 200 692
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/4d604f09-0b3d-4499-989b-4c6b52b321ab HTTP/1.1" 200 2821
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/4d604f09-0b3d-4499-989b-4c6b52b321ab HTTP/1.1" 204 0
+DEBUG:root:2015-09-28 02:38:31.514504 deletevm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/detail HTTP/1.1" 200 11173
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/dc4a6490-efe5-4c8d-a2f6-6aab266200a8 HTTP/1.1" 204 0
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/d84683ef-25b3-420f-af12-58ffc2a1c558 HTTP/1.1" 204 0
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/cad2b6ec-a982-4e45-81bd-b1952421270a HTTP/1.1" 204 0
+DEBUG:root:2015-09-28 03:08:14.107829 deletevm :  called...
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 1447
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"GET /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/detail HTTP/1.1" 200 16795
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/3c8ffe03-e717-48fd-9b8a-d44a11889f87 HTTP/1.1" 204 0
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/c4b36e31-2293-4669-9f2c-e201cc97de28 HTTP/1.1" 204 0
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/1fe93045-42d4-49fe-a61f-acfe4316c686 HTTP/1.1" 204 0
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/ae559a45-70f0-4f84-b3c6-686bc1206769 HTTP/1.1" 204 0
+INFO:urllib3.connectionpool:Starting new HTTP connection (1): controller
+DEBUG:urllib3.connectionpool:Setting read timeout to None
+DEBUG:urllib3.connectionpool:"DELETE /v2/4bd533deb4b84c3b951b0f5702c31a70/servers/cad2b6ec-a982-4e45-81bd-b1952421270a HTTP/1.1" 204 0
+DEBUG:root:2015-10-11 21:35:33.017582 getVncUrl :  called...
+DEBUG:root:2015-10-11 21:36:08.077942 getVncUrl :  called...
+DEBUG:root:2015-10-11 21:36:23.553662 getVncUrl :  called...
+DEBUG:root:2015-10-11 21:36:36.890187 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/6cf7f6fd40b94df1893f9ed890ae8c0a/servers/detail HTTP/1.1" 200 1682
+DEBUG:root:2015-10-11 21:39:05.502943 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/6cf7f6fd40b94df1893f9ed890ae8c0a/servers/detail HTTP/1.1" 200 1682
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/6cf7f6fd40b94df1893f9ed890ae8c0a/servers/3fa7ee41-2ffa-48e4-afd2-c02ee85925a2/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-11 21:41:07.400647 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/6cf7f6fd40b94df1893f9ed890ae8c0a/servers/detail HTTP/1.1" 200 3338
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/6cf7f6fd40b94df1893f9ed890ae8c0a/servers/fa9ab79c-89e1-4fe6-a5a3-ac05130efd29/action HTTP/1.1" 200 124
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/6cf7f6fd40b94df1893f9ed890ae8c0a/servers/3fa7ee41-2ffa-48e4-afd2-c02ee85925a2/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-11 22:04:51.179763 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/6cf7f6fd40b94df1893f9ed890ae8c0a/servers/detail HTTP/1.1" 200 3338
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/6cf7f6fd40b94df1893f9ed890ae8c0a/servers/fa9ab79c-89e1-4fe6-a5a3-ac05130efd29/action HTTP/1.1" 200 124
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/6cf7f6fd40b94df1893f9ed890ae8c0a/servers/3fa7ee41-2ffa-48e4-afd2-c02ee85925a2/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-11 22:06:11.240148 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/6cf7f6fd40b94df1893f9ed890ae8c0a/servers/detail HTTP/1.1" 200 3338
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/6cf7f6fd40b94df1893f9ed890ae8c0a/servers/fa9ab79c-89e1-4fe6-a5a3-ac05130efd29/action HTTP/1.1" 200 124
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/6cf7f6fd40b94df1893f9ed890ae8c0a/servers/3fa7ee41-2ffa-48e4-afd2-c02ee85925a2/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-11 22:06:38.676741 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/6cf7f6fd40b94df1893f9ed890ae8c0a/servers/detail HTTP/1.1" 200 3338
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/6cf7f6fd40b94df1893f9ed890ae8c0a/servers/fa9ab79c-89e1-4fe6-a5a3-ac05130efd29/action HTTP/1.1" 200 124
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/6cf7f6fd40b94df1893f9ed890ae8c0a/servers/3fa7ee41-2ffa-48e4-afd2-c02ee85925a2/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-12 01:09:20.627847 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:root:2015-10-12 01:53:55.983323 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/detail HTTP/1.1" 200 1682
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-12 02:01:08.805219 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/detail HTTP/1.1" 200 1682
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-12 02:02:24.384916 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/detail HTTP/1.1" 200 1682
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-12 02:02:49.745552 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/detail HTTP/1.1" 200 1682
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-12 02:03:22.519505 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/detail HTTP/1.1" 200 1682
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-12 02:06:05.642214 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/detail HTTP/1.1" 200 1682
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-12 02:06:49.395910 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/detail HTTP/1.1" 200 1682
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-12 02:07:13.881415 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/detail HTTP/1.1" 200 1682
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-12 02:11:16.574887 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/detail HTTP/1.1" 200 1682
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-12 02:12:26.700092 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/detail HTTP/1.1" 200 1682
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-12 02:12:45.001023 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/detail HTTP/1.1" 200 1682
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-12 02:20:29.877366 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/detail HTTP/1.1" 200 1682
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-12 02:22:11.759862 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/detail HTTP/1.1" 200 1682
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-12 03:35:49.746232 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/detail HTTP/1.1" 200 1682
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/53f6e765-0cf8-4b46-9e9e-1e5f16cf6ed7/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-12 03:36:13.625316 createvm :  called...
+DEBUG:root:2015-10-12 03:36:13.626080 createVm : missed syntax
+DEBUG:root:2015-10-12 03:37:26.191119 createvm :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/images HTTP/1.1" 200 1563
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/images/f22dbc10-3fa5-4ee5-b281-2bb6bc9f361e HTTP/1.1" 200 810
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/flavors HTTP/1.1" 200 1748
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/flavors/1 HTTP/1.1" 200 426
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers?name=0 HTTP/1.1" 200 15
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers HTTP/1.1" 202 444
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/dd714cce-5c8a-4d2e-9bf7-5474ee723dc9 HTTP/1.1" 200 1470
+DEBUG:root:2015-10-12 03:37:28.955790 createvm : 0ID : dd714cce-5c8a-4d2e-9bf7-5474ee723dc9Build Success !!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers?name=1 HTTP/1.1" 200 15
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers HTTP/1.1" 202 444
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/e6eb197d-961c-4310-8098-24705d720a4e HTTP/1.1" 200 1470
+DEBUG:root:2015-10-12 03:37:30.469063 createvm : 1ID : e6eb197d-961c-4310-8098-24705d720a4eBuild Success !!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers?name=2 HTTP/1.1" 200 361
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers HTTP/1.1" 202 444
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/13591952-709a-4397-9087-e36f7b418827 HTTP/1.1" 200 1470
+DEBUG:root:2015-10-12 03:37:31.489751 createvm : 2ID : 13591952-709a-4397-9087-e36f7b418827Build Success !!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers?name=3 HTTP/1.1" 200 15
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers HTTP/1.1" 202 444
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/e03b4e07-d63d-427f-be56-bcb84a05e9ef HTTP/1.1" 200 1470
+DEBUG:root:2015-10-12 03:37:32.721778 createvm : 3ID : e03b4e07-d63d-427f-be56-bcb84a05e9efBuild Success !!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers?name=4 HTTP/1.1" 200 15
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers HTTP/1.1" 202 444
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/3cd125cd-a222-443a-b8e1-c12622d5c67e HTTP/1.1" 200 1470
+DEBUG:root:2015-10-12 03:37:34.577366 createvm : 4ID : 3cd125cd-a222-443a-b8e1-c12622d5c67eBuild Success !!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers?name=5 HTTP/1.1" 200 15
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/02f85ffef58847ddb66a0cb21fc021e7/servers HTTP/1.1" 202 444
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/02f85ffef58847ddb66a0cb21fc021e7/servers/98651ae3-b026-4350-856c-a77720d7bf79 HTTP/1.1" 200 1470
+DEBUG:root:2015-10-12 03:37:36.286996 createvm : 5ID : 98651ae3-b026-4350-856c-a77720d7bf79Build Success !!
+DEBUG:root:2015-10-12 04:12:50.384676 createvm :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/images HTTP/1.1" 200 1563
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/images/35533899-0c9c-480f-a19c-6c26d27d48e7 HTTP/1.1" 200 810
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/flavors HTTP/1.1" 200 1748
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/flavors/1 HTTP/1.1" 200 426
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers?name=vmx0 HTTP/1.1" 200 15
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/2aa20c6992c54b35a4ab60c827799992/servers HTTP/1.1" 202 444
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers/a6c61e90-7aa9-49d1-b154-2f5e8ef6a524 HTTP/1.1" 200 1473
+DEBUG:root:2015-10-12 04:12:51.966940 createvm : vmx0ID : a6c61e90-7aa9-49d1-b154-2f5e8ef6a524Build Success !!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers?name=vmx1 HTTP/1.1" 200 15
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/2aa20c6992c54b35a4ab60c827799992/servers HTTP/1.1" 202 444
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers/ffe981b6-75bc-4b42-b467-0c2d234e51c0 HTTP/1.1" 200 1473
+DEBUG:root:2015-10-12 04:12:52.559610 createvm : vmx1ID : ffe981b6-75bc-4b42-b467-0c2d234e51c0Build Success !!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers?name=vmx2 HTTP/1.1" 200 15
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/2aa20c6992c54b35a4ab60c827799992/servers HTTP/1.1" 202 444
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers/d8aef817-1848-4d2d-8f65-a8f7b3321d13 HTTP/1.1" 200 1473
+DEBUG:root:2015-10-12 04:12:53.511628 createvm : vmx2ID : d8aef817-1848-4d2d-8f65-a8f7b3321d13Build Success !!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers?name=vmx3 HTTP/1.1" 200 15
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/2aa20c6992c54b35a4ab60c827799992/servers HTTP/1.1" 202 444
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers/e8a86055-00ac-401d-8c42-d2c6c357019f HTTP/1.1" 200 1473
+DEBUG:root:2015-10-12 04:12:54.168214 createvm : vmx3ID : e8a86055-00ac-401d-8c42-d2c6c357019fBuild Success !!
+DEBUG:root:2015-10-12 04:16:52.798496 getVncUrl :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers/detail HTTP/1.1" 200 3351
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/2aa20c6992c54b35a4ab60c827799992/servers/ffe981b6-75bc-4b42-b467-0c2d234e51c0/action HTTP/1.1" 200 124
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/2aa20c6992c54b35a4ab60c827799992/servers/ffe981b6-75bc-4b42-b467-0c2d234e51c0/action HTTP/1.1" 200 124
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/2aa20c6992c54b35a4ab60c827799992/servers/a6c61e90-7aa9-49d1-b154-2f5e8ef6a524/action HTTP/1.1" 200 124
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/2aa20c6992c54b35a4ab60c827799992/servers/a6c61e90-7aa9-49d1-b154-2f5e8ef6a524/action HTTP/1.1" 200 124
+DEBUG:root:2015-10-12 04:20:43.482614 createvm :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/images HTTP/1.1" 200 1563
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/images/35533899-0c9c-480f-a19c-6c26d27d48e7 HTTP/1.1" 200 810
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/flavors HTTP/1.1" 200 1748
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/flavors/1 HTTP/1.1" 200 426
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers?name=vmx0 HTTP/1.1" 200 361
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers/a6c61e90-7aa9-49d1-b154-2f5e8ef6a524 HTTP/1.1" 200 1679
+DEBUG:root:2015-10-12 04:21:01.248348 createvm : vmx0 ID : a6c61e90-7aa9-49d1-b154-2f5e8ef6a524 already present !!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers?name=vmx1 HTTP/1.1" 200 361
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers/ffe981b6-75bc-4b42-b467-0c2d234e51c0 HTTP/1.1" 200 1679
+DEBUG:root:2015-10-12 04:21:01.389666 createvm : vmx1 ID : ffe981b6-75bc-4b42-b467-0c2d234e51c0 already present !!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers?name=vmx2 HTTP/1.1" 200 15
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/2aa20c6992c54b35a4ab60c827799992/servers HTTP/1.1" 202 444
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers/1de9ca17-1c7e-4f6e-9470-edbe9cd8ec3b HTTP/1.1" 200 1473
+DEBUG:root:2015-10-12 04:21:02.058685 createvm : vmx2ID : 1de9ca17-1c7e-4f6e-9470-edbe9cd8ec3bBuild Success !!
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers?name=vmx3 HTTP/1.1" 200 15
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2/2aa20c6992c54b35a4ab60c827799992/servers HTTP/1.1" 202 444
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers/97bde8c7-90bc-42d1-8ef0-e9fcde308925 HTTP/1.1" 200 1473
+DEBUG:root:2015-10-12 04:21:02.625698 createvm : vmx3ID : 97bde8c7-90bc-42d1-8ef0-e9fcde308925Build Success !!
+DEBUG:root:2015-10-12 04:21:36.147696 deletevm :  called...
+DEBUG:root:2015-10-12 04:21:36.176262 deletevm : option exception throwed
+DEBUG:root:2015-10-12 04:21:43.950957 deletevm :  called...
+DEBUG:root:2015-10-12 04:21:43.951552 deletevm : option exception throwed
+DEBUG:root:2015-10-12 04:21:46.522842 deletevm :  called...
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"POST /v2.0/tokens HTTP/1.1" 200 2899
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"GET /v2/2aa20c6992c54b35a4ab60c827799992/servers/detail HTTP/1.1" 200 6689
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"DELETE /v2/2aa20c6992c54b35a4ab60c827799992/servers/97bde8c7-90bc-42d1-8ef0-e9fcde308925 HTTP/1.1" 204 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"DELETE /v2/2aa20c6992c54b35a4ab60c827799992/servers/1de9ca17-1c7e-4f6e-9470-edbe9cd8ec3b HTTP/1.1" 204 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"DELETE /v2/2aa20c6992c54b35a4ab60c827799992/servers/ffe981b6-75bc-4b42-b467-0c2d234e51c0 HTTP/1.1" 204 0
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.168.43.184
+DEBUG:requests.packages.urllib3.connectionpool:"DELETE /v2/2aa20c6992c54b35a4ab60c827799992/servers/a6c61e90-7aa9-49d1-b154-2f5e8ef6a524 HTTP/1.1" 204 0

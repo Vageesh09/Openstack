@@ -1,0 +1,4 @@
+python createVm.py  -o cirros-0.3.3-x86_64  -f m1.tiny -n vmx -c 1
+
+
+

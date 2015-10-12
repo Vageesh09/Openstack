@@ -1,0 +1,3 @@
+VM_NAME, STATUS , CONSOLE_URL
+vmx1,ACTIVE,http://192.168.43.184:6080/vnc_auto.html?token=8e40881d-539f-4c13-a90d-c37b2f8e614c
+vmx0,ACTIVE,http://192.168.43.184:6080/vnc_auto.html?token=55a4f4eb-42d1-4955-beae-e0d45d848acf
