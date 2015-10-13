@@ -1,0 +1,53 @@
+html{
+
+	height:99%;
+	width:99%;
+	margin:0;
+	padding:0;
+	font-family: "DejaVu Sans"
+	font-weight: 300;
+	font-size: 16pt;
+
+}
+body{
+
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+
+}
+
+.BodyContainer{
+
+	background-color: #EEEEEE;
+	height:100%;
+	width:100%;
+}
+
+.header{
+
+	background-color:#00004b;
+	height:10%;
+	width:100%;
+
+}
+.header_left_content{
+
+	width:50%;
+	height:90%;
+	float:left;
+	margin-left: 1%;
+	margin-top: 1.2%;
+	font-size: 24px;
+	color: #CCCCCC;
+
+}
+
+.blockContent{
+
+	height:89%;
+	width:100%;
+	background-color: #212121;
+
+}

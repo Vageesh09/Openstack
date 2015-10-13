@@ -28,3 +28,8 @@ function sendRequest(URL,METHOD) {
 	
 }
 
+
+function getJsonObj(str){
+	return eval('('+str+')');
+}
+

@@ -11,6 +11,7 @@
 from flask import Flask
 from flask import render_template
 import os
+import json
 
 app=Flask(__name__)
 
@@ -22,12 +23,19 @@ def index():
 
 @app.route("/test")
 def tets():
-	return 'welcome1'
+	data = {
+		"hello":"world",
+		"number":3
+	}
+	return str(data)
+
+@app.route("/status")
+def status():
 
 
-@app.route("/vmstats")
-def tets():
-	return 'welcome1'
+
+
+	
 
 if __name__ == "__main__":
 	port = int(os.environ.get('PORT',8008))
