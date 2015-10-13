@@ -11,9 +11,12 @@
 from flask import Flask
 from flask import render_template
 import os
-import json
+from utility import Status
 
 app=Flask(__name__)
+
+
+
 
 @app.route("/")
 def index():
@@ -31,6 +34,10 @@ def tets():
 
 @app.route("/status")
 def status():
+	
+	y = st.getStatus();
+	return str(y);
+	
 
 
 
@@ -42,5 +49,6 @@ if __name__ == "__main__":
 
 	if port == 8008:
 		app.debug = True
-
+	st = Status.status();
+	print "called app.py"
 	app.run(host = '0.0.0.0',port = port)

@@ -5,6 +5,10 @@ ul,li{
 	height:auto;
 	width:100%;
 }
+div{
+	margin:0;
+	padding:0;
+}
 
 html{
 
@@ -47,7 +51,7 @@ body{
 .header_left_content{
 
 	width:50%;
-	height:90%;
+	height:auto;
 	float:left;
 	margin-left: 1%;
 	margin-top: 1.2%;
@@ -60,7 +64,9 @@ body{
 
 	height:89%;
 	width:100%;
-	background-color: #212121;
+	background-color: #E1E1E1;
+	position:relative;
+	float:left;
 
 }
 
@@ -70,7 +76,7 @@ body{
 	width:10%;
 	min-width: 116px;
 	z-index:10;
-	background-color: #EEEEEE;
+	background-color: #212121;
 }
 
 .menuHolder{
@@ -88,4 +94,28 @@ body{
     padding-top: 10px;
     padding-left: 8px;
 	width: auto;
+	cursor: pointer;
+}
+
+.statusblock_left{
+
+	width:40%;
+	height:99%;
+	float:left;
+	border: 1px solid #EEEEEE;
+}
+
+.statusblock_right{
+
+	width: 59%;
+	height:99%;
+	float:left;
+	border: 1px solid #EEEEEE;
+
+}
+
+.statusblock_left label{
+	font-size:15px;
+	margin:10px;
+
 }

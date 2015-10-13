@@ -19,7 +19,7 @@
 		<div class="BodyContainer" >
 
 			<div class="header">
-				<label onclick="menuDropDown();" ><img id="menuimg"  src="static/image/menu.png"/ height="40px" width="30px" style="float:left;margin-top: 0.8%; margin-left:0.2%;"/></label>	
+				<label onclick="menuDropDown();" ><img id="menuimg" title="Menu" src="static/image/menu.png"/ height="40px" width="30px" style="float:left;margin-top: 0.8%; margin-left:0.2%;"/></label>	
 				<label class="header_left_content">
 					VM Manager
 
@@ -27,7 +27,7 @@
 			</div>
 			<div id="menu_div" >
 				<ul class="menuHolder" style="list-style-type:none">
-					<li class="menu">Status</li>
+					<li class="menu" onclick="displayStatus();">Status</li>
 					<li class="menu">Create VM</li>
 					<li class="menu">Delete VM</li>
 					<li class="menu">VM Console</li>
@@ -36,8 +36,12 @@
 			</div>	
 
 			<div class="blockContent" id = "statusVm_block">
-				
+				<div class="statusblock_left" id="statusVmLeft">
 
+				</div>
+				<div class="statusblock_right" id="statusVmRight">
+
+				</div>
 			</div>
 
 			<div class="blockContent" id = "createVm_block">
